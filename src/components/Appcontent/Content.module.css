@@ -1,0 +1,27 @@
+.content {
+  width: 46rem;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.numberDisplay {
+  margin-left: 1rem;
+  padding: 0.125rem 0.5rem;
+  background-color: var(--gray-400);
+  border-radius: 999px;
+  color: var(--gray-200);
+}
+
+.content > header > strong:first-of-type {
+  color: var(--purple);
+}
+
+.content > header > strong:nth-child(2) {
+  color: var(--blue);
+}
